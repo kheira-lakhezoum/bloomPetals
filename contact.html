@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="home" title="Home">Home</a></li>
+                    <li><a href="entreprise.html" title="Entreprise">Entreprise</a></li>
+                    <li><a href="realisations.html" title="Réalisation">Realisations</a></li>
+                    <li><a href="contact.html" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <input id="barrerecherche" type="text" value="Recherche">
+        </header>
+        <main>
+            <div class="nom">
+                <h1>BloomPetals</h1>
+            </div>
+            <section class="contact"> Informations de contact </section>
+            <section class="photo">
+            <img src="image equipe/photo6.jpg" alt="Equipe">
+            </section>
+            <section class="infos">
+                <p> Adresse: 70 Avenue des Champs Elysées
+                             75008 Paris</p>
+                <p>Téléphone : 01.90.75.75.75</p>
+                            <p>De 9h à 12h et de 13h30 à 17h30</p>
+                            <p>Du lundi au vendredi</p>
+                <p><a href class=mail title="Contact">Bloompetals@blooms.fr</a></p>
+            </section>
+            <section class="liste">
+                <select>
+                    <option value="critere1"> Madame </option>
+                    <option value="critere2"> Monsieur </option>
+                    <option value="critere3"> None </option>
+                </select>
+            </section>
+            <section> 
+                <form method="post">
+                    <p>Entrez votre nom : <input type="text" name="nom"></p>
+                    <p>Entrez votre prénom : <input type="text" name="prenom"></p>
+                    <p>Entrez votre adresse mail : <input type="text" name="adresse"></p>
+                </form>
+            </section>
+            <section class="text">
+                <textarea type="text">Entrez votre message</textarea>
+                </section>
+            <section class="check">
+                <legend>Veuillez accepter les politiques de confidentialité de l'entreprise</legend>
+                <input type="checkbox" id="J'accepte" name="J'accepte" checked />
+                <label for="J'accepte">J'accepte</label>
+            </section>
+            <section class="submit"><input type="submit"/>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>
